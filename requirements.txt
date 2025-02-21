@@ -1,0 +1,29 @@
+# Testing and Coverage
+pytest==7.4.3
+pytest-cov==4.1.0
+coverage==7.3.2
+
+# Code Quality
+pylint==3.0.2
+flake8==6.1.0
+
+# Development Tools
+black==23.11.0
+
+# Common Python Libraries
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Date and Time
+pytz==2023.3
+
+# API Development (opsional, sesuaikan dengan kebutuhan)
+flask==3.0.0
+djangorestframework==3.14.0
+
+# Database (opsional, sesuaikan dengan kebutuhan)
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Utils
+pyyaml==6.0.1
