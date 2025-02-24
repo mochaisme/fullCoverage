@@ -1,5 +1,13 @@
 import pytest
-from calculator import add, subtract, multiply, divide
+import sys
+
+
+sys.path.append("C:/Codingan/Semester 6/Magang/Build Pipeline/Git/main")
+import calculator
+
+
+#import calculator 
+
 
 def test_add():
     assert add(2, 3) == 5
