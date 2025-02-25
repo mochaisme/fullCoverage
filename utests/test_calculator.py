@@ -2,7 +2,7 @@ import pytest
 import sys
 
 
-sys.path.append("C:/Codingan/Semester 6/Magang/Build Pipeline/Git/main")
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../main')))
 import calculator
 
 
